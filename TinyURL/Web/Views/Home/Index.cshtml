@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="row">
+    <div class="col-md-12 text-center">
+        <h2>Getting started</h2>
+        <p>
+            Input your long url and it will generate the short url, which on browsing will redirect to your
+            long running url that is input by you.
+        </p>
+    </div>
+</div>
+<div class="panel panel-default">
+
+    <div class="panel-heading font-bold">
+        Tiny URL
+    </div>
+
+    <form class="form-horizontal form-padding">
+        <div class="form-group">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <input type="text" id="txtLongURL" class="form-control" placeholder="Enter your long URL">
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="form-group">
+            <label id="lblError" class="col-sm-8 control-label" style="color:red;">Only Domain or Sub-Domain from mydeal.com is allowed</label>
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-5 text-center">
+                <a href="#" id="lnkGetTinyURL" class="btn btn-primary">Get Tiny URL</a>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-5">
+                <input class="form-control" id="lblTinyUrl" type="text" disabled>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="line line-dashed b-b line-lg pull-in"></div>
+
+    </form>
+</div>
+@*<div class="jumbotron">
+        <h1>Tiny URL</h1>
+        <p class="lead">Tiny URL Web is service to covert your long running URL to short tiny URL which redirect to your long running url</p>
+        <div class="row">
+            <div class="col-md-8">
+                <input type="text" id="txtLongURL" placeholder="Enter Long URL" />
+            </div>
+            <div class="col-md-4">
+                <a id="lnkGetTinyURL" href="#" class="btn btn-success">Get TinyURL</a>
+            </div>
+        </div>
+        <p>
+            <input type="text" id="lblTinyUrl" />
+        </p>
+    </div>*@
+

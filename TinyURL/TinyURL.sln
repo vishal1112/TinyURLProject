@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyURL.Api", "TinyURL.Api\TinyURL.Api.csproj", "{63F69ABB-AD6C-4C74-844C-88055CCD40FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyURL.Api.Tests", "TinyURL.Api.Tests\TinyURL.Api.Tests.csproj", "{D5BE63E4-B768-4F5F-AF27-D41B60D05CF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyURL.DataStore", "TinyURL.DataStore\TinyURL.DataStore.csproj", "{6AF9A807-EB09-4887-8E3A-0E5E2247EDB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{22F512B6-C98D-445B-8796-21EE8C955E47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63F69ABB-AD6C-4C74-844C-88055CCD40FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F69ABB-AD6C-4C74-844C-88055CCD40FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F69ABB-AD6C-4C74-844C-88055CCD40FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F69ABB-AD6C-4C74-844C-88055CCD40FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BE63E4-B768-4F5F-AF27-D41B60D05CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BE63E4-B768-4F5F-AF27-D41B60D05CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BE63E4-B768-4F5F-AF27-D41B60D05CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BE63E4-B768-4F5F-AF27-D41B60D05CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF9A807-EB09-4887-8E3A-0E5E2247EDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF9A807-EB09-4887-8E3A-0E5E2247EDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF9A807-EB09-4887-8E3A-0E5E2247EDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF9A807-EB09-4887-8E3A-0E5E2247EDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F512B6-C98D-445B-8796-21EE8C955E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F512B6-C98D-445B-8796-21EE8C955E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F512B6-C98D-445B-8796-21EE8C955E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F512B6-C98D-445B-8796-21EE8C955E47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

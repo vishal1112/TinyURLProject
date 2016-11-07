@@ -1,0 +1,73 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.42857143;
+    color: #58666e;
+    background-color: transparent;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.app-content-body {
+    width: 100%;
+}
+
+.bg-light.lter, .bg-light .lter {
+    background-color: #f6f8f8;
+}
+
+.b-b {
+    border-bottom: 1px solid #dee5e7;
+}
+
+.wrapper-md {
+    padding: 20px;
+}
+
+.bg-light {
+    color: #58666e;
+    background-color: #edf1f2;
+}
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 680px;
+}
+
+.panel-default {
+    border-color: #dee5e7;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel {
+    border-radius: 2px;
+}
+
+.form-padding {
+    padding: 80px 20px;
+}
+
+.font-bold {
+    font-weight: 700;
+}
